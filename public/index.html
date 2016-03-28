@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo Post-It</title>
+    <link href="css/stylefornote.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id = 'react-postitnote'></div>
+
+
+    <footer class="panel-footer">
+        <p6>
+            &copy; <span id="fullyear"></span> Tuan#3 :)</p6>
+        <!--Get full year into span tag -->
+        <script type="text/javascript">
+            document.getElementById("fullyear").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
+
+    <script src="js/jquery-1.12.2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!--all jsx are complied to main.js, which render here in html -->
+    <script src="js/main.js"></script>
+</body>
+</html>
